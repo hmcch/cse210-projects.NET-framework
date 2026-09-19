@@ -39,7 +39,7 @@ class Program
             }
             else if (userOption == "4")
             {
-                Console.WriteLine("Enter the filename to save: ");
+                Console.Write("Enter the filename to save: ");
                 string fileToSave = Console.ReadLine();
                 myJournal.SaveToFile(fileToSave);
 
