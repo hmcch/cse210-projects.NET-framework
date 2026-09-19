@@ -49,7 +49,8 @@ public class Journal
             foreach (Entry entry in _entries)
             {
                 outputFile.WriteLine($"{entry._date}|{entry._promptText}|{entry._entryText}");
-                Console.Write("File saved successfully.");
+                Console.Write("File saved successfully!!!");
+                Console.WriteLine();
             }
         }
     }
@@ -66,7 +67,8 @@ public class Journal
             entry._promptText = sections[1];
             entry._entryText = sections[2];
             _entries.Add(entry);
-            Console.Write("File loaded successfully.");
+            Console.Write("File loaded successfully!!!");
+            Console.WriteLine();
         }
     }
 
@@ -76,7 +78,7 @@ public class Journal
         {
             int last = _entries.Count - 1;
             _entries.RemoveAt(last);
-            Console.WriteLine("Latest entry has been erased.");
+            Console.WriteLine("Latest entry has been erased!!!");
             Console.WriteLine("If you want to keep the file updated, select option 4 to update the journal.");
         }
         else
