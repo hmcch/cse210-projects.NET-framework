@@ -49,6 +49,7 @@ public class Journal
             foreach (Entry entry in _entries)
             {
                 outputFile.WriteLine($"{entry._date}|{entry._promptText}|{entry._entryText}");
+                Console.WriteLine("File saved successfully.");
             }
         }
     }
@@ -65,6 +66,7 @@ public class Journal
             entry._promptText = sections[1];
             entry._entryText = sections[2];
             _entries.Add(entry);
+            Console.WriteLine("File loaded successfully.");
         }
     }
 
