@@ -19,7 +19,7 @@ class Program
             Console.WriteLine("4. Save");
             Console.WriteLine("5. Quit");
             Console.WriteLine("6. Delete last entry");
-            Console.WriteLine("What would you like to do? ");
+            Console.Write("What would you like to do? ");
             // Read user input
             userOption = Console.ReadLine();
             // Starting loop with user input
