@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
-//Core Requirements exceeded, option added to erase the latest entry, lines of code 21, 51-54
+//Main Requirements exceeded, option added erase latest entry, lines of code 21, 51-54
 class Program
 {
     static void Main(string[] args)
